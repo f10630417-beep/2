@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <title>世界美食介紹</title>
+    <style>
+        body {
+            font-family: "Microsoft JhengHei", sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+        }
+        header {
+            background-color: #ff7a59;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .card {
+            background-color: white;
+            border-radius: 12px;
+            padding: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .card h2 {
+            color: #ff7a59;
+        }
+        .card p {
+            color: #555;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>🍽️ 世界美食介紹</h1>
+    <p>探索五種經典美味料理</p>
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <h2>🍜 牛肉麵</h2>
+        <p>台灣經典美食，濃郁湯頭搭配軟嫩牛肉與Q彈麵條，令人回味無窮。</p>
+    </div>
+
+    <div class="card">
+        <h2>🍣 壽司</h2>
+        <p>日本代表料理，新鮮生魚片與醋飯的完美結合，清爽又精緻。</p>
+    </div>
+
+    <div class="card">
+        <h2>🍕 披薩</h2>
+        <p>來自義大利的經典料理，餅皮酥脆，搭配豐富多樣的配料。</p>
+    </div>
+
+    <div class="card">
+        <h2>🌮 塔可</h2>
+        <p>墨西哥街頭美食，用玉米餅包裹各種餡料，風味十足。</p>
+    </div>
+
+    <div class="card">
+        <h2>🍰 提拉米蘇</h2>
+        <p>義大利經典甜點，融合咖啡與可可香氣，口感柔滑細膩。</p>
+    </div>
+
+</div>
+
+<footer>
+    <p>© 2026 美食探索網站</p>
+</footer>
+
+</body>
+</html>
